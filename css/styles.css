@@ -75,11 +75,16 @@ a {
     height: 380px;
 }
 
+.sub-header {
+    padding: 50px;
+}
+
 .Aboutme {
     background-color: rgb(247, 166, 166);
     padding: 50px;
     display: flex; 
     flex-wrap: wrap;
+    padding-top: 100px;
 }
 
 .Aboutme div {
@@ -97,6 +102,7 @@ a {
     display: flex;
     padding: 80px;
     justify-content: center;
+    padding-top: 100px;
 } 
 
 .Contact div {
