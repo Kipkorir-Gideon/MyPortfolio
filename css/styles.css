@@ -5,3 +5,22 @@
 h1, h2 {
     text-align: center;
 }
+
+a {
+    text-decoration: none;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    background-color: aqua;
+    height: 80px;
+}
+
+.nav-bar a {
+    margin-right: 10px;
+    padding: 25px;
+    color: rgb(136, 125, 125);
+}
