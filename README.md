@@ -8,6 +8,9 @@ This is a personal portfolio site. It contains brief information about me that i
 the projects that I have build, my education background and contact information.
 
 ## Setup Instruction
+You need to have git installed<br />
+You can install it with the following command in your terminal
+`$ sudo apt install git-all`
 
 ## Technologies/languages Used
 
