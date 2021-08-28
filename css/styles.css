@@ -26,6 +26,12 @@ a {
     color: rgb(136, 125, 125);
 }
 
+@media screen and (max-width: 700px) {
+    .nav-bar {
+        justify-content: center;
+    }
+}
+
 .my-name {
     display: flex;
     justify-content: space-around;
