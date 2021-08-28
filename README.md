@@ -24,7 +24,7 @@ To access this project on your local files, you can clone it using these steps
 -BOOTSTRAP
 
 ## Live site
-Live [link](https://kipkorir-gideon.github.io/MyPortfolio/).
+View live site [here](https://kipkorir-gideon.github.io/MyPortfolio/).
 
 ## License & copyright
 Licensed under the [MIT License](LICENSE).<br />
