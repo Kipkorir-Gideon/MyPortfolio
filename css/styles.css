@@ -102,3 +102,15 @@ a {
     margin: 10px;
     padding: 10px;
 }
+
+.social {
+    padding-top: 50px;
+}
+
+.social a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px;
+}
