@@ -122,3 +122,10 @@ a {
     padding-top: 40px;
     background-color: gainsboro;
 }
+
+.message {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: rgb(250, 248, 226);
+}
