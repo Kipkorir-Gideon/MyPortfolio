@@ -51,18 +51,20 @@ a {
 .projects-section {
     background-color: tomato;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0 50px 0 50px;
 }
  
 .projects div {
     max-width: 400px;
     height: auto;
+    align-items: center;
     text-align: center;
     padding: 20px 10px 20px 10px;
 }
@@ -70,4 +72,20 @@ a {
 .projects> div> img {
     width: 100%;
     height: 380px;
+}
+
+.Aboutme {
+    background-color: rgb(247, 166, 166);
+    padding: 50px;
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.Aboutme div {
+    max-width: 600px;
+    border-style: solid;
+    margin: 5px;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 10px;
 }
