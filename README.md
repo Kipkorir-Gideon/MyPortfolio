@@ -18,9 +18,9 @@ To access this project on your local files, you can clone it using these steps
 1. Use this command to clone $ git clone https://github.com/Kipkorir-Gideon/MyPortfolio.git
 
 ## Technologies/languages Used
--HTML
--CSS
--GITHUB
+-HTML<br/>
+-CSS<br/>
+-GITHUB<br/>
 -BOOTSTRAP
 
 ## Live site
