@@ -88,4 +88,17 @@ a {
     border-width: 1px;
     border-radius: 5px;
     padding: 10px;
+    align-items: center;
+}
+
+.Contact {
+    background-color: wheat;
+    display: flex;
+    padding: 80px;
+    justify-content: center;
+} 
+
+.Contact div {
+    margin: 10px;
+    padding: 10px;
 }
