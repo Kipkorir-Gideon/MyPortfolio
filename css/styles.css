@@ -18,6 +18,7 @@ a {
     width: 100%;
     background-color: aqua;
     height: 80px;
+    margin-top: -2px;
 }
 
 .nav-bar a {
@@ -95,11 +96,12 @@ a {
 }
 
 .Aboutme {
-    background-color: rgb(252, 222, 222);
+    background-color: rgb(90, 94, 91);
     padding: 50px;
     display: flex; 
     flex-wrap: wrap;
     padding-top: 100px;
+    color: rgb(196, 196, 196);
 }
 
 .Aboutme div {
@@ -113,11 +115,12 @@ a {
 }
 
 .Contact {
-    background-color: wheat;
+    background-color: rgb(92, 90, 86);
     display: flex;
     padding: 80px;
     justify-content: center;
     padding-top: 100px;
+    color: rgb(212, 209, 209);
 } 
 
 .Contact div {
@@ -150,5 +153,5 @@ a {
     border-style: solid;
     border-width: 1px;
     border-radius: 10px;
-    background-color: rgb(250, 248, 226);
+    background-color: rgb(97, 96, 89);
 }
