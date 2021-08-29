@@ -155,3 +155,20 @@ a {
     border-radius: 10px;
     background-color: rgb(97, 96, 89);
 }
+
+label {
+    margin-top: 10px;
+}
+
+.form {
+    border-radius: 5px;
+    width: 100%;
+    padding: 8px;
+}
+
+.button {
+    width: 50%;
+    padding: 5px;
+    background-color: rgb(60, 77, 44);
+    color: rgb(207, 204, 204);
+}
