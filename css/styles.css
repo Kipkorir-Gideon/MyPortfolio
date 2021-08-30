@@ -133,6 +133,7 @@ a {
     border-radius: 5px;
     padding: 10px;
     align-items: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .Contact {
@@ -172,9 +173,11 @@ a {
 
 .message {
     border-style: solid;
+    border-color: rgb(110, 102, 102);
     border-width: 1px;
     border-radius: 10px;
     background-color: rgb(97, 96, 89);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 label {
