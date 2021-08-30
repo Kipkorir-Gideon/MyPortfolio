@@ -64,8 +64,6 @@ a {
 
 .projects {
     display: grid;
-    flex-wrap: wrap;
-    justify-content: space-around;
     padding: 0 50px 0 50px;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-template-rows: 1fr 1fr;
@@ -73,6 +71,8 @@ a {
 }
  
 .projects div {
+    display: flex;
+    justify-content: center;
     max-width: 400px;
     height: auto;
     align-items: center;
@@ -82,7 +82,7 @@ a {
     border-color: rgb(105, 103, 103);
     border-width: 1px;
     border-radius: 10px;
-    margin: 4px;
+    margin: auto;
 }
 
 .projects a {
