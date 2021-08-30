@@ -86,6 +86,12 @@ a {
     margin: auto;
 }
 
+@media screen and (max-width: 650px) {
+    .projects div {
+        width: 100%;
+    }
+}
+
 .projects a {
     color: rgb(243, 235, 235);
 }
@@ -121,6 +127,7 @@ a {
 .Aboutme div {
     max-width: 600px;
     border-style: solid;
+    border-color: rgb(110, 103, 103);
     margin: 5px;
     border-width: 1px;
     border-radius: 5px;
