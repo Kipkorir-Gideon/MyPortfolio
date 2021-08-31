@@ -40,10 +40,11 @@ a {
     width: 100%;
     height: 650px;
     background-color: rgba(211, 210, 195, 0.822);
-    margin-top: 2px;
+    padding: 100px;
+    /* margin-top: 2px;
     padding-top: 100px;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 20px; */
 }
 
 .name {
@@ -53,6 +54,13 @@ a {
 .photo img {
     width: 400px;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 650px) {
+    .my-name {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .projects-section {
