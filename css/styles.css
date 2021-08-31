@@ -139,25 +139,32 @@ a {
 .Contact {
     background-color: rgb(92, 90, 86);
     display: flex;
+    flex-direction: column;
     padding: 80px;
     justify-content: center;
+    text-align: center;
     padding-top: 100px;
     color: rgb(212, 209, 209);
 } 
 
 .Contact div {
-    margin: 10px;
+    margin: auto;
     padding: 10px;
 }
 
 .social {
     padding-top: 50px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 80%;
 }
 
 .social a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     margin: 5px;
     padding: 10px;
     color: black;
@@ -176,6 +183,8 @@ a {
     border-color: rgb(110, 102, 102);
     border-width: 1px;
     border-radius: 10px;
+    text-align: justify;
+    max-width: 400px;
     background-color: rgb(97, 96, 89);
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
